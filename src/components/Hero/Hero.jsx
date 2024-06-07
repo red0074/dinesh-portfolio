@@ -8,6 +8,8 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
+import teleDark from "../../assets/tele.webp";
+import teleLight from "../../assets/tele-dark.svg";
 import CV from "../../assets/resume.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
@@ -18,7 +20,7 @@ function Hero() {
   const twitterIcon = theme === "light" ? twitterLight : twitterDark;
   const githubIcon = theme === "light" ? githubLight : githubDark;
   const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
-
+  const teleIcon = theme === "light" ? teleLight : teleDark;
   return (
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
@@ -47,6 +49,9 @@ function Hero() {
           <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
+          <a href="https://t.me/dineshponnuru29" target="_blank">
+            <img src={teleIcon} alt="telegram icon" />
+          </a>
           <a href="https://github.com/red0074" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
@@ -58,7 +63,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Proactive and dedicated Computer Science student with hands- on
+          Proactive and dedicated Computer Science student with hands-on
           experience in full-stack development, database integration, and user
           interface designer
         </p>
