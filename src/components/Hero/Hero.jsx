@@ -62,10 +62,8 @@ function Hero() {
           experience in full-stack development, database integration, and user
           interface designer
         </p>
-        <a href={CV}>
-          <button className="hover" download>
-            Resume
-          </button>
+        <a href={CV} download>
+          <button className="hover">Resume</button>
         </a>
       </div>
     </section>
