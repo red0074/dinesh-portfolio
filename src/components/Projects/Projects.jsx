@@ -3,6 +3,7 @@ import clone from "../../assets/clone.jpg";
 import responsive from "../../assets/responsive.jpg";
 import chat from "../../assets/chat.png";
 import todo from "../../assets/todo.png";
+import tictactoe from "../../assets/tictactoe.jpg";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -33,6 +34,12 @@ function Projects() {
           link="https://github.com/red0074/todo-app.git"
           h3="ToDo-Striker"
           p="Flutter Todo app "
+        />
+        <ProjectCard
+          src={tictactoe}
+          link="https://github.com/red0074/tic-tac-toe.git"
+          h3="Tic Tac Toe"
+          p="Web App"
         />
       </div>
     </section>
