@@ -1,0 +1,44 @@
+/* components/Navbar/Navbar.css */
+
+.navbar {
+  background-color: var(--background-color) !important;
+}
+
+.nav-link {
+  color: var(--text-color) !important;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 25px;
+}
+
+.nav-link:hover {
+  color: var(--btn-color) !important;
+  height: inherit;
+  /* background-color: #fff; */
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.ml-auto {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 576px) {
+  .ml-auto {
+    height: auto;
+    padding: 10px 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-link {
+    margin: 5px 0;
+  }
+}
