@@ -1,5 +1,4 @@
 import "./App.css";
-import Certifications from "./components/Certifications";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
@@ -13,7 +12,6 @@ function App() {
       <Navigation />
       <Hero />
       <Projects />
-      <Certifications />
       <Skills />
       <Contact />
       <Footer />
