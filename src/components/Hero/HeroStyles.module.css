@@ -4,7 +4,7 @@
   justify-content: center;
   gap: 20px;
   text-align: center;
-  height: 100dvh;
+  height: 100vh;
   min-height: 500px;
 
   .hero {
@@ -78,7 +78,7 @@
   align-items: center;
 }
 
-@media (width >= 800px) {
+@media (min-width: 800px) {
   .container {
     flex-direction: row-reverse;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 }
 
-@media (width >= 1400px) {
+@media (min-width: 1400px) {
   .container {
     .hero {
       max-width: 400px;

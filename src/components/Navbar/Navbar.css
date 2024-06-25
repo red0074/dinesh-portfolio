@@ -22,7 +22,7 @@
 .ml-auto {
   display: flex;
   justify-content: center;
-  height: 30px;
+  min-height: 30px;
   width: 100%;
   max-width: 450px;
   border-radius: 25px;
