@@ -43,7 +43,6 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Docker" />
         <SkillList src={checkMarkIcon} skill="Jenkins" />
         <SkillList src={checkMarkIcon} skill="Linux" />
-        <SkillList src={checkMarkIcon} skill="Terraform" />
         <SkillList src={checkMarkIcon} skill="Gradle" />
       </div>
     </section>
