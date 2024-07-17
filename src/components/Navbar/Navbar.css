@@ -1,4 +1,5 @@
 /* components/Navbar/Navbar.css */
+
 .navbar {
   background-color: var(--background-color) !important;
 }
@@ -13,7 +14,6 @@
 .nav-link:hover {
   color: var(--btn-color) !important;
   height: inherit;
-  /* background-color: #fff; */
   border: 2px solid white;
   border-radius: 15px;
 }
@@ -30,6 +30,7 @@
   flex-wrap: wrap;
 }
 
+/* Media query for mobile devices */
 @media (max-width: 576px) {
   .ml-auto {
     height: auto;
@@ -37,7 +38,18 @@
     flex-direction: column;
     align-items: center;
   }
+
   .nav-link {
     margin: 5px 0;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+  }
+
+  .nav-link:hover {
+    border: 2px solid white;
+    border-radius: 15px;
   }
 }
