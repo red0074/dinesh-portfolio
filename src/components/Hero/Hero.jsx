@@ -10,9 +10,8 @@ import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import teleDark from "../../assets/tele.webp";
 import teleLight from "../../assets/tele-dark.svg";
-import CV from "../../assets/resume.pdf";
+import CV from "../../assets/resume-30441.pdf";
 import { useTheme } from "../../common/ThemeContext";
-import Navigation from "../Navbar/Navbar";
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
