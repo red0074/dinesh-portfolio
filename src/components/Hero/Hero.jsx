@@ -60,9 +60,13 @@ function Hero() {
             </a>
           </span>
           <p className={styles.description}>
-            Proactive and dedicated Computer Science student with hands-on
-            experience in full-stack development, database integration, and user
-            interface designer
+            Enthusiastic and quick-learning Computer Science engineering fresher
+            with hands-on experience in full- stack development, database
+            integration, and modern UI design through academic projects and
+            personal work. Looking to kickstart my career as a software or web
+            developer by contributing to real-world projects, learning from
+            industry experts, and growing within a forward- thinking
+            organization.
           </p>
           <a href={CV} download>
             <button className="hover">Resume</button>
