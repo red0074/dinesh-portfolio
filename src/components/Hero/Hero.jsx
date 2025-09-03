@@ -10,7 +10,7 @@ import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import teleDark from "../../assets/tele.webp";
 import teleLight from "../../assets/tele-dark.svg";
-import CV from "../../assets/resume-30441.pdf";
+import CV from "../../assets/Ponnuru-Dinesh-Venkata-Sai-Teja_FullStack.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
